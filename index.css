@@ -1,0 +1,694 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.zindex {
+    z-index: 999;
+}
+
+.a-center {
+    display: flex;
+    align-items: center;
+}
+
+.first_menu li {
+    position: relative;
+}
+
+.hover_menu {
+    position: absolute;
+}
+
+
+.first_menu :hover>ul {
+    display: block;
+}
+
+.dropdown-menu {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0 !important;
+    border-radius: 0;
+}
+
+.parent_menu {
+    position: absolute;
+    display: none;
+    left: 118%;
+    margin-left: -29px;
+    top: 35%;
+    background-color: white;
+}
+
+ul {
+    padding-left: 0 !important;
+}
+
+.icon_center {
+    align-items: center;
+    display: flex;
+}
+
+/* part : 2 */
+
+.background_blue {
+    background-color: rgb(18, 18, 90);
+    min-height: 730px;
+    padding: 120px;
+    position: relative;
+    display: block;
+}
+
+.background_blue::before {
+    content: '';
+    display: inline-block;
+    background-color: rgba(58, 56, 56, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.text h1 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.paragraph p {
+    font-size: 16px;
+}
+
+.button button {
+    padding: 8px 17px;
+}
+
+.button :hover {
+    box-shadow: inset 15px 10px 15px rgba(8, 128, 232, 0.5);
+}
+
+.background_image {
+    background-image: url(https://bootstrapmade.com/demo/templates/Nova/assets/img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.bgshow {
+    display: none;
+}
+
+.background_image::before {
+    content: '';
+    display: inline-block;
+    background-color: rgba(58, 56, 56, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+/* .row>* {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.row {
+    --bs-gutter-x: 0 !important; 
+} */
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* part : 3 */
+.line {
+    width: 60px;
+}
+
+/* part : 4 */
+.bg_image {
+    background-image: url(https://bootstrapmade.com/demo/templates/Nova/assets/img/why-us-bg.jpg);
+    background-size: cover;
+    min-height: 500px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #2049a0;
+}
+
+.carousel-caption {
+    position: unset !important;
+}
+
+.text_grey {
+    color: rgb(36, 36, 102);
+    font-size: 17px;
+}
+
+.bg_margin {
+    margin: 128px 128px 50px 128px;
+}
+
+.bg_margin h4 {
+    letter-spacing: -2px;
+    word-spacing: 7px;
+    font-size: 25px;
+}
+
+.dshow {
+    display: none;
+}
+
+.bblock {
+    display: block;
+}
+
+/* part : 7 */
+.font_size i {
+    font-size: 35px;
+    color: orange;
+}
+
+.text_h5 h5:hover {
+    color: #2049a0;
+}
+
+.text_h5 {
+    margin-left: -19px;
+}
+
+/* part : 7  */
+.bg_bulding {
+    background-image: url(https://bootstrapmade.com/demo/templates/Nova/assets/img/cta-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 350px;
+    padding: 100px 350px;
+    position: relative;
+    z-index: -1;
+}
+
+.bg_bulding ::before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    background-color: rgba(12, 46, 80, 0.3);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.letter_spacing {
+    letter-spacing: 2px;
+}
+
+.discription button {
+    padding: 12px 27px;
+}
+
+/* part : 8 */
+.bg_header h2 {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.bg_list {
+    font-size: 20px;
+    color: rgb(99, 96, 96);
+}
+
+.bg_pad {
+    padding: 40px;
+}
+
+.bg_mobile img {
+    width: 80%;
+}
+
+.nn {
+    display: none;
+}
+
+/* .bg_hover {
+    overflow: hidden;
+} */
+
+.img_lady {
+    width: 100%;
+    overflow: hidden;
+}
+
+.img_lady img {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.bg_information h4 {
+    font-weight: 700;
+    font-size: 21px;
+    color: black;
+}
+
+.bg_information p {
+    font-size: 18px;
+    color: gray;
+}
+
+.bg_hover :hover h4 {
+    color: #0dc6da;
+}
+
+.img_lady :hover {
+    transform: scale(1.2);
+}
+
+.col-3 {
+    flex: 0 0 auto;
+    width: calc(25% - 20px);
+    margin: 10px;
+}
+
+/* part : 11 */
+.bg_footerr h2 {
+    font-weight: 700;
+}
+
+.bg_footerr p {
+    font-size: 19px;
+}
+
+.bg_icons i {
+    background-color: #0dc6da;
+    transition: 0.5s;
+}
+
+.bg_icons li i:hover {
+    background-color: #2049a0;
+}
+
+/* .bg_footer2 {
+    width: calc(16.666667% - 30px) !important;
+    margin-left: 30px;
+} */
+
+.bg_footer2 h6 {
+    font-size: 18px;
+}
+
+.bg_listitems li {
+    color: rgb(63, 59, 59);
+    transition: 0.5s;
+    font-size: 16px;
+}
+
+.bg_listitems :hover {
+    color: #0dc6da;
+}
+
+.bg_footerr3 {
+    width: calc(25% - 30px);
+    margin-left: 20px;
+    margin-top: 0 !important;
+}
+
+.bg_footerr3 h6 {
+    font-size: 18px;
+}
+
+/* part  : 12  */
+.bg_last i {
+    font-size: 11px;
+}
+
+/* top to bottom */
+
+#progresss {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    background-color: #0dc6da;
+    place-items: center;
+    display: none;
+    z-index: 999;
+    position: absolute;
+}
+
+#progresss:hover {
+    background-color: #2049a0;
+    color: white;
+    transition: 0.5s;
+}
+
+#progress_value {
+    animation: top-bottom 0.5s linear infinite alternate-reverse;
+}
+
+@keyframes top-bottom {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-5px);
+    }
+}
+
+/* Responsive  */
+
+@media (max-width: 1400px) {}
+
+@media (min-width:1199px) and (max-width:1355px) {
+    .background_blue {
+        padding: 70px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .background_blue {
+        padding: 70px;
+    }
+
+    .bg_mobile img {
+        width: 100%;
+    }
+
+    .bg_list {
+        font-size: 18px;
+    }
+
+    .bg_margin {
+        margin: 127px 88px 50px 88px;
+    }
+
+    .font_size i {
+        font-size: 23px;
+        color: orange;
+    }
+
+    .bg_bulding {
+        padding: 100px 150px;
+    }
+}
+
+@media (min-width:991px) and (max-width:1115px) {
+    .background_blue {
+        padding: 100px 40px;
+    }
+
+    .text h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .text h1 {
+        font-size: 38px;
+    }
+
+    .background_blue {
+        display: none;
+    }
+
+    .bgshow {
+        display: block;
+        padding: 150px 100px;
+    }
+
+    .text {
+        z-index: 999;
+        position: relative;
+    }
+
+    .paragraph {
+        z-index: 999;
+        position: relative;
+    }
+
+    .main {
+        z-index: 999;
+        position: relative;
+    }
+
+    .bblock {
+        display: none;
+    }
+
+    .dshow {
+        display: block;
+    }
+
+    .bmartopbot {
+        padding: 175px 64px;
+    }
+
+    .text-end {
+        text-align: center !important;
+    }
+
+    .pt-5 {
+        padding-top: 1rem !important;
+    }
+
+    .pb-5 {
+        padding-bottom: 1rem !important;
+    }
+
+}
+
+@media (min-width:767px) and (max-width:993px) {
+    .bg_mobile img {
+        width: 100%;
+    }
+
+    .bmartopbot {
+        padding: 225px 4px;
+    }
+
+    .bg_bulding {
+        padding: 80px 125px;
+    }
+
+    /* .text_h5 {
+        margin-left: -44px;
+    } */
+
+
+
+}
+
+@media (max-width: 768px) {
+    .bgshow {
+        padding: 150px 100px;
+    }
+
+    .text_h5 {
+        margin-left: -24px;
+    }
+
+    .bg_list {
+        font-size: 16px;
+    }
+
+    .bmartopbot {
+        padding: 95px 6px;
+    }
+}
+
+@media (min-width: 577px) and (max-width:765px) {
+    .bgshow {
+        padding: 150px 27px;
+    }
+
+    .dn {
+        display: none;
+    }
+
+    .bg_bulding {
+        padding: 70px 10px;
+    }
+}
+
+@media (min-width:320px) and (max-width: 576px) {
+    .dn {
+        display: none;
+    }
+
+    .bgshow {
+        padding: 100px 23px;
+    }
+
+    .col--2 {
+        flex: 0 0 auto;
+        width: 49.666667%;
+    }
+
+    .col--10 {
+        flex: 0 0 auto;
+        width: 50.333333%;
+    }
+
+    .bg_bulding {
+        padding: 50px 10px;
+    }
+
+    .bp {
+        display: none;
+    }
+
+    .bpp {
+        padding: 0 10px;
+    }
+
+    .bg_header h2 {
+        font-size: 30px;
+    }
+
+    .bg_list {
+        font-size: 20px;
+    }
+
+    .bg_header h2 {
+        font-size: 30px;
+        margin-top: 150px;
+    }
+
+    .se {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .row {
+        --bs-gutter-x: 0 !important;
+    }
+
+    .bg_footerr3 {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0 !important;
+    }
+
+    .nn {
+        display: block;
+    }
+}
+
+@media (min-width:280px) and (max-width:321px) {
+    .dn {
+        display: none;
+    }
+
+    .bgshow {
+        padding: 100px 23px;
+    }
+
+    .col--2 {
+        flex: 0 0 auto;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .col--10 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .nn {
+        display: block;
+    }
+
+    .bg_list {
+        font-size: 16px;
+    }
+
+    .bg_bulding {
+        padding: 50px 10px;
+    }
+
+    .bp {
+        display: none;
+    }
+
+    .bpp {
+        padding: 0 10px;
+    }
+
+    .bg_header h2 {
+        font-size: 30px;
+    }
+
+    .bg_list {
+        font-size: 16px;
+    }
+
+    .bg_header h2 {
+        font-size: 20px;
+        margin-top: 150px;
+    }
+
+    .text h1 {
+        font-size: 30px;
+    }
+
+    .se {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .font_size i {
+        font-size: 17px;
+        color: orange;
+    }
+
+    .row {
+        --bs-gutter-x: 0 !important;
+    }
+
+    .bg_footerr3 {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0 !important;
+    }
+}
